@@ -17,6 +17,12 @@
 		62E1EB091C2A797E0043EBD4 /* MysticShowStatusHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB081C2A797E0043EBD4 /* MysticShowStatusHUDUITests.m */; };
 		62E1EB1C1C2A79CE0043EBD4 /* MysticShowStatusHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62E1EB191C2A79CE0043EBD4 /* MysticShowStatusHUD.bundle */; };
 		62E1EB1D1C2A79CE0043EBD4 /* MysticShowStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB1B1C2A79CE0043EBD4 /* MysticShowStatusHUD.m */; };
+		62E1EB211C2A8FEE0043EBD4 /* UIViewController+DL.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB201C2A8FEE0043EBD4 /* UIViewController+DL.m */; };
+		62E1EB271C2A91060043EBD4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 62E1EB231C2A91060043EBD4 /* LICENSE */; };
+		62E1EB281C2A91060043EBD4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB251C2A91060043EBD4 /* MBProgressHUD.m */; };
+		62E1EB291C2A91060043EBD4 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB261C2A91060043EBD4 /* README.mdown */; };
+		62E1EB2F1C2A91790043EBD4 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62E1EB2B1C2A91790043EBD4 /* MBProgressHUD.bundle */; };
+		62E1EB301C2A91790043EBD4 /* MBProgressHUD+DL.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EB2D1C2A91790043EBD4 /* MBProgressHUD+DL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,15 @@
 		62E1EB191C2A79CE0043EBD4 /* MysticShowStatusHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MysticShowStatusHUD.bundle; sourceTree = "<group>"; };
 		62E1EB1A1C2A79CE0043EBD4 /* MysticShowStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysticShowStatusHUD.h; sourceTree = "<group>"; };
 		62E1EB1B1C2A79CE0043EBD4 /* MysticShowStatusHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysticShowStatusHUD.m; sourceTree = "<group>"; };
+		62E1EB1F1C2A8FEE0043EBD4 /* UIViewController+DL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DL.h"; sourceTree = "<group>"; };
+		62E1EB201C2A8FEE0043EBD4 /* UIViewController+DL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DL.m"; sourceTree = "<group>"; };
+		62E1EB231C2A91060043EBD4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		62E1EB241C2A91060043EBD4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		62E1EB251C2A91060043EBD4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		62E1EB261C2A91060043EBD4 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		62E1EB2B1C2A91790043EBD4 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		62E1EB2C1C2A91790043EBD4 /* MBProgressHUD+DL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+DL.h"; sourceTree = "<group>"; };
+		62E1EB2D1C2A91790043EBD4 /* MBProgressHUD+DL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+DL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,7 @@
 		62E1EAE21C2A797E0043EBD4 /* MysticShowStatusHUD */ = {
 			isa = PBXGroup;
 			children = (
+				62E1EB1E1C2A8FD40043EBD4 /* MysticCategory */,
 				62E1EB181C2A79CE0043EBD4 /* MysticShowStatusHUD */,
 				62E1EAE61C2A797E0043EBD4 /* AppDelegate.h */,
 				62E1EAE71C2A797E0043EBD4 /* AppDelegate.m */,
@@ -154,6 +170,30 @@
 				62E1EB1B1C2A79CE0043EBD4 /* MysticShowStatusHUD.m */,
 			);
 			path = MysticShowStatusHUD;
+			sourceTree = "<group>";
+		};
+		62E1EB1E1C2A8FD40043EBD4 /* MysticCategory */ = {
+			isa = PBXGroup;
+			children = (
+				62E1EB221C2A91060043EBD4 /* MBProgressHUD */,
+				62E1EB1F1C2A8FEE0043EBD4 /* UIViewController+DL.h */,
+				62E1EB201C2A8FEE0043EBD4 /* UIViewController+DL.m */,
+			);
+			path = MysticCategory;
+			sourceTree = "<group>";
+		};
+		62E1EB221C2A91060043EBD4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				62E1EB2B1C2A91790043EBD4 /* MBProgressHUD.bundle */,
+				62E1EB2C1C2A91790043EBD4 /* MBProgressHUD+DL.h */,
+				62E1EB2D1C2A91790043EBD4 /* MBProgressHUD+DL.m */,
+				62E1EB231C2A91060043EBD4 /* LICENSE */,
+				62E1EB241C2A91060043EBD4 /* MBProgressHUD.h */,
+				62E1EB251C2A91060043EBD4 /* MBProgressHUD.m */,
+				62E1EB261C2A91060043EBD4 /* README.mdown */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +303,8 @@
 				62E1EAF01C2A797E0043EBD4 /* Assets.xcassets in Resources */,
 				62E1EB1C1C2A79CE0043EBD4 /* MysticShowStatusHUD.bundle in Resources */,
 				62E1EAEE1C2A797E0043EBD4 /* Main.storyboard in Resources */,
+				62E1EB271C2A91060043EBD4 /* LICENSE in Resources */,
+				62E1EB2F1C2A91790043EBD4 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E1EAEB1C2A797E0043EBD4 /* ViewController.m in Sources */,
+				62E1EB281C2A91060043EBD4 /* MBProgressHUD.m in Sources */,
+				62E1EB291C2A91060043EBD4 /* README.mdown in Sources */,
 				62E1EAE81C2A797E0043EBD4 /* AppDelegate.m in Sources */,
+				62E1EB211C2A8FEE0043EBD4 /* UIViewController+DL.m in Sources */,
+				62E1EB301C2A91790043EBD4 /* MBProgressHUD+DL.m in Sources */,
 				62E1EAE51C2A797E0043EBD4 /* main.m in Sources */,
 				62E1EB1D1C2A79CE0043EBD4 /* MysticShowStatusHUD.m in Sources */,
 			);
@@ -514,6 +560,7 @@
 				62E1EB0F1C2A797E0043EBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E1EB101C2A797E0043EBD4 /* Build configuration list for PBXNativeTarget "MysticShowStatusHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +569,7 @@
 				62E1EB121C2A797E0043EBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E1EB131C2A797E0043EBD4 /* Build configuration list for PBXNativeTarget "MysticShowStatusHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +578,7 @@
 				62E1EB151C2A797E0043EBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
