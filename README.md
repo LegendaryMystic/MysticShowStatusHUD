@@ -1,7 +1,7 @@
 # MysticShowStatusHUD.h
 ## 自己写了一个类，用于提示信息的状态栏
 ## MysticShowStatusHUD.h
-![](https://github.com/LegendaryMystic/MysticShowStatusHUD/blob/master/ReadMeImages/loading.tiff)
+![](https://github.com/LegendaryMystic/MysticShowStatusHUD/blob/master/ReadMeImages/loading.png)
 ```objc
 #import <UIKit/UIKit.h>
 
