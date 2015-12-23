@@ -1,9 +1,7 @@
-# MysticShowStatusHUD
-自己写了一个类，用于显示提示信息的状态栏
-
-<p align="center"><img src="https://github.com/LegendaryMystic/MysticShowStatusHUD/blob/master/ReadMeImages/loading.tiff /></p>
-
+# MysticShowStatusHUD.h
+## 自己写了一个类，用于提示信息的状态栏
 ## MysticShowStatusHUD.h
+![](https://github.com/LegendaryMystic/MysticShowStatusHUD/blob/master/ReadMeImages/loading.tiff)
 ```objc
 #import <UIKit/UIKit.h>
 
@@ -43,6 +41,7 @@
  * 隐藏
  */
 + (void)hide;
+
 @end
 
 ```
